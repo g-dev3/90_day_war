@@ -30,6 +30,7 @@ An anchor element is created using the `<a>` tag and is used to create hyperlink
 ### What is HTML Attribute?
 
 modifies how an element behaves
+Attribute modifies the behaviour of element.
 href="https://youtube.com"
 left side is a Attribute name and right side is a Attribute value.
 we can write multiple Attribute in a single element by spacing once in every Attribute.
@@ -48,3 +49,26 @@ target Attribute is link to open in new tab 'target="_blank".
 ### What is Indent?
 
 indent or add spacing in front of code this helps us clearly diffrence element tags and its Content.
+
+## DAY 2
+
+### What is CSS Selector
+
+which element we are targeting.
+
+### What is CSS Property?
+
+we are targeting the element to change any color or background color to change and we write property name that call CSS Property.
+Example:- (`background-color`),(`color`)
+
+### What is CSS Value?
+
+when we write CSS Property and we also write about the value that call CSS Value.
+Example:- (`background-color:red`)
+In this example the background color is a CSS Property and the red is a CSS Value.
+
+Semicolon is like a period.
+
+### What is Pixels?
+
+Pixels are very common unit of measurement, Image,video,screen-Size are measuring in pixels.
