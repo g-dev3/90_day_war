@@ -4,9 +4,22 @@
 
 ## HTML & CSS
 
+### What is HTML?
+
+HTML creates web pages. It provides structure and content like headings, paragraphs, links, and images.
+
 ### What is HTML Element?
 
-Anything you display on a webpage. Example: <button>, <p>, <img>
+Anything you display on a webpage. Example: `<button>`, `<p>`, `<img>`
+
+### What is HTML Tag?
+
+Keyword in angle brackets `< >` that tells the browser what to display. Most tags come in pairs: opening `<p>` and closing `</p>`. Some are self-closing like `<img/>` or `<br/>`.
+
+### What is Anchor Element?
+
+Creates links using `<a>` tag. Uses `href` to set the URL.
+Example: `<a href="https://example.com">Click here</a>`
 
 ### What is Syntax?
 
@@ -20,7 +33,7 @@ Example:
 ### What is HTML Attribute?
 
 Modifies element behavior.
-Example: href="https://youtube.com" (left is name, right is value). Use target="\_blank" to open in new tab.
+Example: `href="https://youtube.com"` (left is name, right is value). Use `target="_blank"` to open in new tab.
 
 **Note:**
 Extra spaces and line breaks in HTML are ignored by the browser. Format code for readability—it won't change how the page looks.
@@ -92,7 +105,9 @@ Browser tool to inspect and debug HTML, CSS, and JavaScript.
 
 ### What is HTML Entity?
 
-Special code for symbols not on keyboard. Example: &amp; for &
+Special code for symbols not on keyboard. Example: `&amp;` for ampersand (&), `&lt;` for less-than (<)
+
+### What is Paragraph Default Margin?
 
 In HTML, paragraphs have default margin (usually 14px).
 
@@ -102,9 +117,22 @@ Rules that decide which CSS style is applied if there are conflicts.
 
 ### What is Text Element?
 
-Element that displays text, like <p> or <h1>.
+Element that displays text, like `<p>` or `<h1>`.
 
 ### What is span Element?
 
 Inline element to style or group text.
 
+## DAY 28
+
+### What is Void Element?
+
+Self-closing elements that don't have closing tags. Example: `<img>`, `<br>`, `<input>`
+
+### What is Filepaths?
+
+The location or path to a file on your computer. Example: `../images/photo.jpg` or `./styles/main.css`
+
+### What is title?
+
+The `<title>` tag sets the name that appears in browser tab and bookmarks.
