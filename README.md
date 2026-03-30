@@ -136,3 +136,15 @@ The location or path to a file on your computer. Example: `../images/photo.jpg` 
 ### What is title?
 
 The `<title>` tag sets the name that appears in browser tab and bookmarks.
+
+### What is Object-fit property?
+
+Controls how an image fits inside its container. Example: `cover`, `contain`, `fill`
+
+### What is Object-position property?
+
+Sets where the image is positioned inside its container. Example: `center`, `top left`, `50% 50%`
+
+### What is Placeholder?
+
+Hint text shown in input fields that disappears when user types. Example: `<input placeholder="Enter your name">`
