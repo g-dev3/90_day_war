@@ -1,0 +1,8 @@
+.line1{
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+button{
+    margin-right: 5px;
+}

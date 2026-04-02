@@ -1,0 +1,35 @@
+.title {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-family: Arial;
+}
+
+.p-location,
+.destination {
+  background-color: rgb(237, 237, 237);
+  display: block;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 200px;
+  margin-bottom: 10px;
+}
+
+.req-btn,
+.schedule-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.schedule-btn {
+  background-color: rgb(237, 237, 237);
+  color: black;
+}
