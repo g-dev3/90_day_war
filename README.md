@@ -213,3 +213,18 @@ They have properties of both inline and block elements.
 Inline elements flow within text on the same line without breaking.
 They only take up as much width as necessary.
 Example: `<span>`, `<a>`, `<strong>`, `<em>`
+
+
+## DAY 32
+
+### What is `<div>` element?
+
+Div is a block element used as a container to group and organize other elements.
+It doesn't have any visual appearance by itself, but you can style it with CSS.
+Div is one of the most commonly used elements for creating layouts.
+
+### What is Nested Layout technique?
+
+Nested layout means putting elements inside other elements to create structure.
+You place divs inside divs to create columns, rows, and sections.
+This technique helps organize page layout and makes styling easier.
