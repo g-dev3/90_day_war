@@ -214,7 +214,6 @@ Inline elements flow within text on the same line without breaking.
 They only take up as much width as necessary.
 Example: `<span>`, `<a>`, `<strong>`, `<em>`
 
-
 ## DAY 32
 
 ### What is `<div>` element?
@@ -228,3 +227,17 @@ Div is one of the most commonly used elements for creating layouts.
 Nested layout means putting elements inside other elements to create structure.
 You place divs inside divs to create columns, rows, and sections.
 This technique helps organize page layout and makes styling easier.
+
+## DAY 33
+
+### What is vertical layout?
+
+Vertical layout arranges elements from top to bottom in a column.
+Elements stack on top of each other vertically.
+Block elements naturally create vertical layouts because they start on new lines.
+
+### What is horizontal layout?
+
+Horizontal layout arranges elements from left to right in a row.
+Elements are placed side by side horizontally.
+You can use flexbox or inline-block to create horizontal layouts.
