@@ -241,3 +241,36 @@ Block elements naturally create vertical layouts because they start on new lines
 Horizontal layout arranges elements from left to right in a row.
 Elements are placed side by side horizontally.
 You can use flexbox or inline-block to create horizontal layouts.
+
+## DAY 34
+
+### What is Css Grid?
+
+CSS Grid is a 2D layout system that divides a page into rows and columns.
+You can place elements anywhere on the grid using grid properties.
+Grid is powerful for creating complex layouts with rows and columns working together.
+
+### How alignment problem comes with using of inline block?
+
+Inline-block elements have spacing issues because browsers treat whitespace in HTML as content.
+Line breaks and spaces between elements create unwanted gaps.
+You can fix this by removing whitespace, using font-size: 0, or using flexbox instead.
+
+### What is inline style?
+
+Inline style is CSS written directly in an HTML element using the style attribute.
+Example: `<p style="color: red; font-size: 20px;">Text</p>`
+Inline styles have highest specificity but are not reusable and make code harder to maintain.
+
+### What is fr in Grid;
+
+Fr stands for fractional unit used in CSS Grid.
+It represents a fraction of available space in the grid container.
+Example: `grid-template-columns: 1fr 2fr 1fr;` creates three columns where middle takes 2x the space of others.
+
+### what is columns and rows,give example to explain?
+
+Columns divide the grid vertically (left to right) and rows divide it horizontally (top to bottom).
+Example: `grid-template-columns: 100px 200px;` creates 2 columns of 100px and 200px widths.
+Example: `grid-template-rows: 50px 100px;` creates 2 rows of 50px and 100px heights.
+You can combine them: `grid-template-columns: 1fr 1fr; grid-template-rows: auto 200px;`
