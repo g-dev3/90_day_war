@@ -274,3 +274,37 @@ Columns divide the grid vertically (left to right) and rows divide it horizontal
 Example: `grid-template-columns: 100px 200px;` creates 2 columns of 100px and 200px widths.
 Example: `grid-template-rows: 50px 100px;` creates 2 rows of 50px and 100px heights.
 You can combine them: `grid-template-columns: 1fr 1fr; grid-template-rows: auto 200px;`
+
+### What is flexbox?
+
+Flexbox is a CSS layout model for arranging items in one direction: either a row or a column.
+It helps distribute space, align items, and reorder elements easily inside a container.
+Flexbox is best for layouts where the main axis is horizontal or vertical.
+
+### What is diffrence between flexbox and grid?
+
+Flexbox is for one-dimensional layouts along a single row or column.
+Grid is for two-dimensional layouts with both rows and columns at the same time.
+Use flexbox for simple alignment and spacing, and grid for more complex page layouts.
+
+## DAY 35
+
+### What is max-width in css?
+
+`max-width` limits how wide an element can grow, even if there is more space available.
+It prevents an element from becoming too large on wide screens while still allowing it to shrink.
+Example: `max-width: 600px;` keeps the element no wider than 600 pixels.
+
+### What align-items do in flex?
+
+`align-items` controls how flex items are aligned along the cross axis (perpendicular to the main axis).
+It determines the default alignment for all items in the flex container.
+Common values: `stretch` (default, items stretch to fill), `center` (items centered), `flex-start` (items at start), `flex-end` (items at end).
+Example: `align-items: center;` centers all flex items vertically in a row layout.
+
+### what justify-content do in flex?
+
+`justify-content` controls how flex items are distributed along the main axis (the direction set by flex-direction).
+It manages spacing between and around items when they don't fill the entire container.
+Common values: `flex-start` (items at start), `flex-end` (items at end), `center` (items centered), `space-between` (equal space between items), `space-around` (equal space around items).
+Example: `justify-content: space-between;` spreads items evenly with space between them.

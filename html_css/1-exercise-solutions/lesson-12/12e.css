@@ -1,0 +1,35 @@
+* {
+  font-family: Arial;
+}
+.container {
+  width: 500px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 5px;
+}
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.m-5 {
+  margin: 5px;
+}
+.notification-box {
+  padding: 4px 12px 4px 12px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(2, 113, 250);
+  color: white;
+}
+.bold {
+  font-size: 24px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.align-center {
+  align-items: center;
+}

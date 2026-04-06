@@ -1,0 +1,15 @@
+.container {
+  height: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div1,
+.div2 {
+  background-color: lightpink;
+}

@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.div1 {
+  width: 50px;
+  background-color: lightblue;
+}
+
+.div2 {
+  background-color: lightpink;
+  flex: 1;
+}
+.div3 {
+  background-color: lightblue;
+  width: 75px;
+}

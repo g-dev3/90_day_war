@@ -1,0 +1,47 @@
+.container {
+  font-family: Arial;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 22px;
+}
+.input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 25px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.left-section {
+  font-weight: bold;
+  padding-left: 16px;
+  cursor: pointer;
+}
+.middle-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.right-section {
+  padding-right: 16px;
+}
+.dwn-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  font-weight: bold;
+}

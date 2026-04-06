@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+  background-color: lightpink;
+}
